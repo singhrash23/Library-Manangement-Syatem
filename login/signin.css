@@ -1,0 +1,328 @@
+/* SIGNIN CSS*/
+
+.wrapper{
+	height:auto;
+	width:25em;
+	padding:2em 0em 0em 2em ;
+	margin:6em 28em;
+	border-left:2px solid white;
+	border-bottom:2px solid white;
+	border-right:2px solid white;
+	border-top:2px solid white;
+	box-shadow:0px 2px 5px -1px ;
+	
+	
+	
+	
+}
+    .login-wrap input[type=username] {
+	 width:90%;
+	 height:auto;
+	 border-radius:0px;
+	 padding:8px 10px;
+	 background:white;
+	 border:1px solid white;
+	 outline:none;
+	 font-family: courier new;
+	 font-size:16px;
+	 font-weight:bold;
+	  box-shadow:0px 1px 5px -2px;
+	 margin:10px;
+	 transition:1s;
+	 
+	
+	 
+	 
+ }
+    .login-wrap{
+		padding:0px;
+		margin:0px;
+		width:22em;
+		height:auto;
+		max-width:100%;
+		
+	
+	}  
+
+ span.right{
+		padding:2px 1em;
+		margin:-3px 6em 0px 0px;
+	    float:right;
+		border:0px solid;
+		border-radius:20px;
+		
+	}
+span.right:hover {
+		
+		 box-shadow:0px 1px 10px -3px;
+		 color:blue;
+		 
+	}
+	
+	
+.login-wrap span.left{
+		padding:2px 0em;
+		margin:5px 0px 0px 1.8em;  
+		border:0px solid;
+	} 	
+ .login-wrap input[type=password]:hover,input[type=username]:hover{
+	 box-shadow:0px 0px 3px -2px;
+	  transition:1s;
+ }
+  .login-wrap input[type=password]{
+	 
+	  width:90%;
+	 height:auto;
+	 border-radius:0px;
+	 padding:8px 10px;
+	 background:white;
+	 border:1px solid white;
+	 outline:none;
+	 font-family: courier new;
+	 font-size:16px;
+	 font-weight:bold;
+	 box-shadow:0px 1px 5px -2px;
+	 margin:10px;
+	 transition:1s;
+	 
+ }
+ 
+ 
+   .login-wrap input[type=submit]{
+	 
+	 width:8em;
+	 text-align:center;
+	 padding:8px 15px;
+	 border-radius:50px;
+	 outline:none;
+	 font-weight:bold;
+	 box-shadow:0px 1px 10px -5px;
+	 background-color:white;
+	 border:1px solid white;
+	 cursor:pointer;
+	 font-size:14px;
+	 box-shadow:0px 0px 10px -4px;
+	 margin: 0px 0px 10px 10px;
+	 transition:1s;
+	
+	 
+ }
+ .login-wrap input[type=submit]:hover{
+		
+		transition:1s;
+		border:1px solid blue;
+		color:blue;
+		 box-shadow:0px 0px 10px -2px black;
+	}
+ 
+     
+ .center{
+	 
+	 border:0px solid;
+	 margin:10px 10px 10px 10px;
+     padding-left:6em;	 
+ }
+ 
+ 
+ .right{
+	 float:right;
+ }
+ 
+  span.right1{
+		padding:2px 1em;
+		margin:5px 0em 0px 7px;
+	    float:left;
+		border:0px solid;
+		border-radius:20px;
+		border:1px solid;
+		
+	}
+	  span.right1:hover{
+		  color:blue;
+	  }
+	  
+	  
+	
+	  .styled-select {
+ 
+   height: 29px;
+   
+   width: auto;
+}
+  
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 12em;
+   cursor:pointer;
+}
+.styled-select.slate select:hover{
+	color:blue;
+	border:1px solid;
+}
+
+ .wrap_foot{
+	
+			  width:19em;
+			 height:2em;
+			 padding:10px 0px 10px 10px;
+			 border:0px solid;
+		     margin:5px 5px;
+			 font-weight:bold;
+			 font-family:courier new;
+			 background-color:inherit;
+			 color:black;
+			 display:block;
+			
+}
+
+ .wrap_foot .button {
+	 width:auto;
+	 height:auto;
+	 padding:5px;
+	 margin:0px;
+	 text-align:center;
+	 box-shadow:0px 2px 1px -1px;
+	 border-radius:0px;
+	 transition:1s;
+ }
+ 
+  .wrap_foot:hover .button{
+	 
+	 box-shadow:0px 1px 8px -1px;
+	 border:0px solid;
+	 border-radius:50px;
+	 transition:1s;
+	 
+ }
+ 
+.left-1{
+	 float:left;
+	 height:auto;
+	 width:auto;
+	 border:0px solid;
+	 padding:5px;
+	 
+ }
+		  .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+  margin:6em 0px 0px 40%;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+ 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+ 
+}
+	#left{
+	 float:left;
+ }
+ 
+  span.right1{
+		padding:2px 1em;
+		margin:5px 0em 0px 7px;
+	    float:left;
+		border:0px solid;
+		border-radius:20px;
+		
+	}
+	  span.right1:hover{
+		  color:blue;
+	  }
+
+ 
+		 .box-2{
+	
+     width:380px;
+     height:auto;
+      border:0px solid;
+      margin:50px 10em 30px 460px;
+      overflow:hidden;
+        border-radius:5px;
+        box-shadow:0px 1px 10px -3px;	
+          padding:10px;	
+ }
+ 
+ #right{
+	 float:right;
+ }
+ 
+
+ 
+		 .e-button{
+			 width:auto;
+			 max-width:100%;
+			 height:20px;
+			 padding:8px 25px;
+		     margin:0px;
+			 background-color:white;
+			 border-radius:20px;
+			 font-weight:bold;
+			 border:1px solid white;
+	 cursor:pointer;
+	 font-size:14px;
+	 box-shadow:0px 0px 10px -4px; 
+	         opacity:0.7;
+			 
+			 
+			
+		 }
+		 
+		 a{
+			 color:inherit;
+			 text-decoration:none;
+		 }
+		
+		 
+		 .e-button:hover{
+			 border:1px solid blue;
+     box-shadow:0px 0px 3px 0px;
+	 transition:.5s ;
+	 opacity:1;
+		 }
+
+.etext{
+	 width:90%;
+	 height:auto;
+	 margin:10px;
+	 background-color:rgb(46, 71, 112,0.9);
+	 padding:10px;
+	 text-align:center;
+	 font-family:courier new;
+	 font-size:24px;
+	 font-weight:none;
+	 border:0px solid;
+	 color:white;
+	 
+      }
+	  .etext span{
+		  color:red;
+	  }
+	 
+
+.down_margin
+{
+	margin-bottom:8em;
+}	
+
+.margin_down
+{
+	margin-bottom:13.5em;
+	width:auto;
+	height:0em;
+	border:0px solid;
+} 

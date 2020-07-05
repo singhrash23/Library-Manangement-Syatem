@@ -1,0 +1,406 @@
+        
+		/*  Books CSS  */
+       
+	   
+	   .book_box
+	   {
+		   width:40em;
+		   height:auto;
+		   border:1px solid;
+		   margin:40px 0px 80px 22em ;
+		   overflow:auto;
+		  
+		  }
+	   
+	   
+	   .book_pic
+	   {
+		   width:10em;
+		   height:13em;
+		   border:1px solid;
+		   margin:20px 5px 20px 10px ;
+		   background-image:url('book_pics/no-pic-avl.gif');
+		   background-size:100%100%;
+		   
+		   
+	   }
+	   
+	   .book_details
+	   {
+		   width:27em;
+		   height:auto;
+		    border:0px solid;
+		   margin:20px 10px 20px 0px ;
+		   
+		   
+	   }
+	   
+	    .book_details p
+		{
+			padding:4px;
+			margin:0px 0px;
+			border-bottom:1px solid;
+			width:auto;
+			height:auto;
+		}
+		
+		 .book_details span
+		 {
+			font-size:18px;
+            font-weight:bold;			
+		 }
+		
+	   
+	   button.button-1
+	   {
+		   padding:10px 20px 10px 20px;
+		   clear:both;
+		   margin:20px 40px;
+		   cursor:pointer;
+		   
+		   
+	   }
+	   
+	    button.button_disabled
+		{
+			cursor: not-allowed;
+		}
+	   
+	   
+	   
+	  input[type=text],[type=file],[type=number],[type=date] {
+	 width:100%;
+	
+	 height:auto;
+	 border-radius:0px;
+	 padding:8px 10px;
+	 background:white;
+	 outline:none;
+	 font-family: courier new;
+	 font-size:16px;
+	 font-weight:bold;
+	  /* box-shadow:0px 0px 5px -2px; */
+	 /* margin:10px; */
+	  transition:1s;
+	  
+	 
+ }
+ 
+ 
+ 
+ [type=file]:hover,[type=text]:hover
+ {
+	  box-shadow:0px 0px 3px -2px;
+	  transition:0s;
+	  border-left:5px solid green;
+ }
+ 
+ 
+ .styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 12em;
+   cursor:pointer;
+   outline:none;
+}
+.styled-select.slate select:hover{
+	color:blue;
+	border:1px solid;
+	outline:none;
+}
+  input[type=submit]{
+	 
+	 width:8em;
+	 text-align:center;
+	 padding:8px 15px;
+	 border-radius:50px;
+	 outline:none;
+	 font-weight:bold;
+	 box-shadow:0px 1px 10px -5px;
+	 background-color:white;
+	 border:1px solid white;
+	 cursor:pointer;
+	 font-size:14px;
+	 box-shadow:0px 0px 10px -4px;
+	 /* margin: 0px 0px 10px 10px; */
+	 transition:1s;
+	
+	 
+ }
+ input[type=submit]:hover{
+		
+		
+		border:1px solid blue;
+		color:blue;
+		 box-shadow:0px 0px 10px -2px black;
+		 transition:2s;
+	}
+ 
+ 
+ .new_book_box
+	   {
+		   width:40em;
+		   height:auto;
+		   border:1px solid;
+		   margin:40px 0px 40px 22em ;
+		   overflow:auto;
+		   background-color:rgb(244, 66, 75,0.9);
+		   border-radius:20px;
+		  
+		  }
+ 
+	 .new_book_box .add_new_book_wrapper
+	 {
+		   width:30em;
+		   height:auto;
+		   border:0px solid blue;
+		   margin:30px 0px 30px 4.5em; 
+		   padding-bottom:1em;
+		   /* box-shadow:0px 0px 10px -1px blue; */
+	 }
+	 
+	 
+	input[type=date] {
+	 width:15em;
+	
+	 height:auto;
+	 border-radius:0px;
+	 padding:8px 10px;
+	 background:white;
+	
+	 outline:none;
+	 font-family: courier new;
+	 font-size:16px;
+	 font-weight:bold;
+	  /* box-shadow:0px 0px 5px -2px; */
+	 /* margin:10px; */
+	  transition:1s;
+	  
+	 
+ }
+ 
+ .add_new_book_wrapper .date
+ {
+	 margin:10px;
+	
+ }
+ 
+ .add_new_book_wrapper .date .middle
+ {
+	 margin-top:5px;
+	 margin-right:10px;
+ }
+ 
+.add_new_book_wrapper .b_button
+{
+	margin:25px 0px 20px 11em ;
+	border:0px solid;
+	width:auto;
+}
+
+
+.notice
+{
+	width:20em;
+	height:1em;
+	border:0px solid;
+	margin:1em 0em 1em 10em;
+	padding:10px;
+	clear:both;
+}
+.notice span 
+{
+	font-size:18px;
+	font-weight:bold;
+}
+
+ .book_view
+ {
+	 
+		   width:10em;
+		   height:14em;
+		   border:1px solid;
+		   margin:20px 5px 20px 10px ;
+		   background-image:url('book_pics/no-pic-avl.gif');
+		   background-size:100%100%;
+		   position:relative;
+		   float:left;
+ }
+ 
+ 
+ 
+  .book_view:hover .book_view_overlay
+   {
+	width:inherit;
+    height:	inherit;
+	background-color:rgba(72,68,44,0.7);
+	margin:none;
+	position:absolute;
+	top:0;
+	left:0;
+   }
+     
+	  .book_view .book_view_button
+	  {
+		  display:none;
+	  }
+	 
+	 .book_view:hover .book_view_button
+	 {
+		 width:2em;
+		 height:auto;
+		 border:1px solid;
+		 margin:10em 0em 0em 3em;
+		 padding:10px 15px;
+		 background-color:rgb(67, 178, 80);
+		 display:block;
+		 border-radius:5px;
+	 }
+	 
+	 .book_view_button:hover
+	 {
+		 background-color:rgb(67, 178, 80,1);
+		 cursor:pointer;
+		 box-shadow:0px 0px 3px -1px black;
+		 color:white;
+		 transition:1s;
+	 }
+	 
+	 .book_category
+	 {
+		 width:100%;
+		 height:auto;
+		 border:1px solid;
+		 margin:0px 0px ;
+		 background-color:rgba(70,42,95);
+		 overflow:auto;
+	 }
+	 
+	 .book_column_left
+	 {
+		 width:15em;
+		 height:auto;
+		 border:1px solid;
+		 float:left;
+		 margin:5em 2em 2em 5em; 
+		 color:white;
+		 position:sticky;
+         top:0;
+		 
+		 
+		 
+	 }
+	 
+	 .book_column_left ul li
+	 {
+		 list-style:none;
+		 background-color:rgba(245,50,60,0.7);
+		 display:block;
+		 padding:10px;
+		 border:1px solid;
+		 color:white;
+		 
+	 }
+	 
+	 .book_column_left ul li:hover
+	 {
+		 background-color:rgba(50,50,150);
+		 cursor:pointer;
+	 }
+	 
+	.book_column_left h1
+	{
+		text-align:center;
+		padding:5px;
+		background-color:black;
+		
+		
+	}
+	
+	
+	.book_column_right
+	{
+	     width:50em;
+		 height:auto;
+		 border:1px solid;
+		 float:left;
+		 margin:5em 2em 2em 0em; 
+		 color:white;
+		 min-height:10em;
+		 max-height:50em;
+		 overflow:hidden;
+		 
+		 	
+	}
+	
+	.book_column_right h1
+	{
+		background-color:black;
+		color:white;
+		padding:5px 10px;
+		border:1px solid;
+
+	}
+	
+	.book_column_right  .overlay
+	{
+		  width:50em;
+		 height:auto;
+		 border:1px solid red;
+		 float:left;
+		 margin:0;
+		 color:white;
+		 min-height:10em;
+		 max-height:48em;
+		 overflow:auto;
+		 	
+	}
+	
+	.book_column_right h2
+	{
+		
+		color:white;
+		padding:5px 10px;
+		border:none;
+		text-align:center;
+		
+	}
+	
+	
+	.update_remove_btn
+	{
+		width:auto;
+		height:2em;
+		margin-bottom:1em;
+		text-align:center;
+		clear:both;
+		
+	}
+	
+	.update_remove_btn button
+	{
+		background-color:rgba(142,55,86);
+		padding:10px 20px;
+		margin-right:10px;
+		cursor:pointer;
+		border:1px solid green;
+		color:white;
+		border-radius:5px;
+		
+	}
+	
+		.update_remove_btn button:focus
+		{
+			box-shadow: -1px -1px 1px  1px black ;
+		}
+		
+		
+		
+		.add_new_book_button
+		{
+			width:auto;;
+			height:auto;
+			padding:5px 20px;
+			/* border:none; */
+		}

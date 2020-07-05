@@ -1,0 +1,439 @@
+/*  Profile Css*/
+
+ .wrapper
+ {
+	 width:auto;
+	 height:auto;
+	 background-color:rgb(200, 214, 44,0.4);
+ }
+     
+ .box-1{
+	
+     width:500px;
+     height:auto;
+	 background-color:rgb(247, 252, 204);
+      border:1px solid;
+      margin:20px 0px 30px 20px;
+      overflow:hidden;
+        border-radius:5px;
+        box-shadow:0px 1px 10px -2px;	
+          padding:15px 0px 0px 0px;		
+		  float:left;
+		 
+		  
+ }
+ 
+  .box-1 .img{
+	 
+	 margin:0px;
+	 padding:0px;
+	 width:12em;
+	 height:12em;
+	 border:1px solid;
+	 box-shadow:0px 1px 10px -2px;
+	 background-image:url('p_logo.png');
+	 position:absolute;
+	 background-repeat:no-repeat;
+	 background-size:100%;
+	 border-radius:500px;
+	 display:block;
+	 overflow:hidden;
+	
+	
+	 
+	 
+ }
+ .box-1 .img1{
+	 
+	 margin:0px 0px 10px 30%;
+	 padding: 10px;
+	 max-width:500px;
+	 width:12em;
+	 height:12em;
+	 border:0px solid;
+	 box-shadow:0px 1px 10px -4px;
+	 background-repeat:no-repeat;
+	 background-size:100%;
+	 border-radius:none;
+	 overflow:hidden;
+	 position:relative;
+	 
+	 
+ }
+ 
+ 
+ .box-1  div{
+	 margin:0px;
+	 padding:10px;
+	 max-width:500px;
+	 width:98%;
+	 border-bottom:1px dotted;
+	 text-align:center;
+	 color:none;
+	 font-family:Arial Black;
+
+ }
+   #text1{
+	   margin:0px;
+	 padding:10px 30px 10px 0px;
+	 max-width:500px;
+	 width:7em;
+	 border:0px solid;
+	 text-align:right;
+	 color:none;
+	 clear:both;
+	 float:left;
+	 font-family:sans-serif;
+	 box-shadow:none;
+	 font-weight:bold;
+  }
+  #text2{
+	   margin:0px;
+	 padding:10px;
+	 max-width:500px;
+	 width:65%;
+	 border:0px solid;
+	 text-align:left;
+	 color:none;
+	 float:left;
+	 font-family:sans-serif;
+	 box-shadow:none;
+  }
+  
+  
+  .btm{
+	  max-width:500px;
+	  width:95%;
+	  border-top:1px dotted;
+	  height:50px;
+	  clear:both;
+  }
+  .btm .p_button{
+	 
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor:pointer;
+	border:1px solid white;
+	max-width:500px;
+	max-height:20px;
+	width:8em;
+	height:3em;
+	
+	
+}
+	  
+  .p_button:hover{
+	  border:1px solid red;
+  }
+ 
+  .right_box
+  {
+	  width:auto
+	  height:auto;
+	  border:1px solid;
+	  clear:both;
+	  position:relative;
+	  margin: 20px;
+	  background-color:rgb(244, 176, 66,0.5);
+  }
+
+  .right_box .overlay
+  {
+	  width:auto;
+	  height:auto;
+	  border:1px solid;
+	  margin:10px;
+	  background-color:rgb(179, 198, 229,0.4);
+	  /* border-radius:20px; */
+	  padding:10px;
+  }
+ 
+ .right_box .title
+ {
+	 width:auto;
+	 height:auto;
+	 border:0px solid;
+	 padding:10px 20px;
+	 font-size:18px;
+	 font-weight:bold;
+ }
+ 
+ 
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0,0.4); /* Fallback color */
+   
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn
+{
+	cursor:pointer;
+	opacity:0.5
+	}
+	
+	#myBtn:hover{
+	opacity:1;
+	
+	}
+	
+	
+	 input[type=file]{
+		 
+		 height:auto;
+		 width:23.5em;
+		 margin:10px;
+		 border:1px solid;
+		 padding:10px;
+		 background-color:white;
+		 border-radius:10px;
+		 outline:none;
+
+		 }
+		 
+		 
+		input[type=file]:hover{
+			border:1px solid green;
+			
+		} input[type=submit]
+		 {
+			 width:80px;
+			 height:40px;
+			 border:1px solid;
+			 background-color:white;
+			 cursor:pointer;
+			 opacity:0.7;
+			 margin:10px;
+			 padding:10px;
+			 border-radius:20px;
+			 outline:none;
+			 font-weight:bold;
+
+		 }
+		 		 
+				 input[type=submit]:hover{
+					 
+					 opacity:1;
+					  transition: 1s;
+					  box-shadow:0px 1px 1px 0px;
+				 }
+			
+
+.admin_right_box
+  {
+	  width:48em;
+	  height:auto;
+	  max-height:34em;
+	  border:1px solid;
+	  float:right;
+	  position:relative;
+	  margin: 20px;
+	  background-color:rgb(244, 176, 66,0.5);
+	  overflow:hidden;
+	  padding-bottom:1em;
+	  
+  }
+			
+		 .admin_right_box .overlay, .right_box .overlay
+  {
+	  width:auto;
+	  height:auto;
+	  max-height:30em;
+	  border:1px solid;
+	  margin:10px;
+	  background-color:rgb(179, 198, 229,0.4);
+	  padding:10px;
+	  overflow:auto;
+  }
+ 
+ .admin_right_box .title
+ {
+	 width:auto;
+	 height:auto;
+	 border:0px solid;
+	 padding:10px 20px;
+	 font-size:18px;
+	 font-weight:bold;
+ }
+ 
+ .admin_right_box .right_box .data_value
+ {
+	width:auto;
+	 height:auto;
+	 border:0px solid;
+     
+     padding-left:10px;	 
+ }
+ 
+  .overlay .title
+  {
+	  width:38em;
+	  height:1em;
+	  border:1px solid;
+	  padding:10px;
+	  position:absolute;
+	  background-color:rgb(182, 193, 211);
+	  
+  }
+  
+   .title span , .data_value span
+  {
+	  margin-right:5em;
+  }
+  
+  
+       table#t02{
+	  
+	     width:100%;
+		 border-collapse:collapse;
+		 text-align:center;
+		 
+		 
+	  }
+	  
+	  table#t02 th,td,tr{
+	   border-collapse:collapse;
+	   border:1px solid;
+	   padding:10px;
+	  
+	  }
+								  
+	  table#t02 thead{background-color:rgb(149, 176, 219);  color:white;  }
+	  table#t02 tbody{background-color:#c3d0e5;color:black;}
+	  table#t02 tfoot{background-color:blue;color:white;}
+																	  
+ button.button-1
+	   {
+		   padding:2px 2px ;
+		   clear:both;
+		   cursor:pointer;
+		   
+		   
+	   }
+	   
+	   
+	  .box-1 .view_member   
+	  {
+		  text-align:center;
+		  box-shadow:none;
+		  border:none;
+	  }
+	  
+	  .div_center
+	  {
+		  margin:2em 0em 0em 30% ;
+	  }
+ 
+ 
+   .members_div
+   {
+	   width:90%;
+	   height:auto;
+	   min-height:8em;
+	   max-height:auto;
+	   border:1px solid;
+	   clear:both;
+	   margin:1em 1em 1em 4em ;
+	   background-color:rgba(100,52,44);
+	   overflow:auto;
+   }
+   
+   .members_div  .content
+   {
+	   width:auto;
+	   height:auto;
+	   max-height:20em;
+	   min-height:2em;
+	   border:1px solid;
+	   overflow:auto;
+	   margin:1em;
+	   padding:15px;
+	   background-color:rgb(234, 235, 237);
+   }
+   
+ .members_div   .mem_propic
+ {
+	 width:13.5em;
+	 height:auto;
+	 padding:0px;
+	 border:0px solid red;
+	 float:left;
+	 margin:15px;
+	 
+ }
+ 
+  .members_div  .img{
+	 
+	 margin:10px;
+	 padding:0px;
+	 width:12em;
+	 height:14em;
+	 border:1px solid;
+	 box-shadow:0px 1px 10px -2px;
+	 background-image:url('p_logo.png');
+	 position:relative;
+	 background-repeat:no-repeat;
+	 background-size:100%;
+	
+	 overflow:hidden;
+    
+  }
+  
+  
+  .members_div h2
+  {
+	  clear:both;
+	  font-size:18px;
+	  text-align:center;
+	  background-color:rgba(11,55,74);
+	  color:white;
+  }
+  
+  
+  .block_btn
+  {
+	margin:1em 1em 1em 1em; 
+	  padding:10px 20px; 
+	cursor:pointer;
+  }
+  
+  
+   
